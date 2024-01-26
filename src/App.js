@@ -1,5 +1,5 @@
-import Footer from "./Footer";
-import Form from './Form';
+import Footer from "./components/Footer";
+import Form from './components/Form';
 
 function App() {
   return (

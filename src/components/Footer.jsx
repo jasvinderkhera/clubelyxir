@@ -1,4 +1,4 @@
-const searchImage = require('./components/assets/images/logo.png')
+const searchImage = require('../assets/images/logo.png')
 
 function Footer() {
     return (
