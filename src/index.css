@@ -4,6 +4,8 @@ body{
   padding: 0;
 }
 
+/* FOOTER*/
+
 .footer{
   height: 150px;
   width: 90vw;
@@ -61,6 +63,10 @@ body{
   width: 190px;
 }
 
+/*--------------------------------------------------------------------*/
+
+/* FORM */
+
 .form-div{
   height: 400px;
   width: 80vw;
@@ -112,9 +118,9 @@ input{
   margin-bottom: 30px;
 }
 
-button{
+.form-button{
   height: 40px;
-  width: 100px;
+  min-width: 100px;
   background-color: rgb(122, 26, 26);
   color: white;
   border: none;
@@ -123,4 +129,119 @@ button{
 
 hr{
   margin-top: 40px;
+}
+
+/*--------------------------------------------------------------------*/
+
+/*TOP*/
+
+.top-page{
+  min-height: 500px;
+  width: 100%;
+  /* background-color: aquamarine; */
+}
+
+.navbar{
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.img-logo img{
+  height: 40px;
+  width: 250px;
+  margin-left: 70px;
+}
+
+.hamburger .ham{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ham1, .ham3 {
+  height: 2px;
+  width: 20px;
+  background-color: black;
+  
+}
+
+.ham2 {
+  height: 2px;
+  width: 15px;
+  background-color: black;
+  margin-left: 3px;
+}
+
+.main{
+  height: 330px;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content{
+  height: 200px;
+  width: 800px;
+  /* background-color: aqua; */
+  margin-top: 20px ;
+}
+
+p{
+  margin: 0;
+}
+
+.p1{
+  color: rgb(104, 104, 28);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.p2{
+  font-size: 25px;
+  /* word-spacing: 8px; */
+  letter-spacing: 5px;
+  font-family: serif;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.p3{
+  font-size: 38px;
+  /* word-spacing: 15px; */
+  letter-spacing: 5px;
+  font-family: serif;
+}
+
+.p4{
+  font-size: 14px;
+  margin: 15px 0;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+p button{
+  margin: 15px 0;
+  height: 40px;
+  min-width: 100px;
+  background-color: rgb(122, 26, 26);
+  color: white;
+  border: none;
+  padding: 10px 15px;
 }

@@ -47,7 +47,7 @@ function Form() {
             </td>
           </tr>
         </table>
-        <button>Submit</button>
+        <button className="form-button">Submit</button>
       </div>
       <hr />
     </div>
