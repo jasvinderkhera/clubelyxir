@@ -1,8 +1,7 @@
 function Form() {
-  // let name = "Anant";
   return (
     <div className="form-div">
-      <div className="waiting-list">
+      <div className="waiting-list p-3">
         <div>
           <h1 className="form-title">JOIN THE WAITING LIST</h1>
         </div>
@@ -18,6 +17,7 @@ function Form() {
                 type="text"
                 id="name"
                 placeholder=" WRITE YOUR FULL NAME"
+                className="px-1 rounded-2"
               />
             </td>
             <td>
@@ -25,6 +25,7 @@ function Form() {
                 type="email"
                 id="email"
                 placeholder=" WRITE YOUR EMAIL ID"
+                className="px-1 rounded-2"
               />
             </td>
           </tr>
@@ -40,14 +41,43 @@ function Form() {
                 type="tel"
                 id="number"
                 placeholder=" WRITE YOUR PHONE NUMBER"
+                className="px-1 rounded-2"
               />
             </td>
             <td>
-              <input type="text" id="city" placeholder=" WRITE YOUR CITY" />
+              <input type="text" id="city" placeholder=" WRITE YOUR CITY" className="px-1 rounded-2 " />
             </td>
           </tr>
         </table>
-        <button className="form-button">Submit</button>
+        <button className="btn btn-danger px-4 pb-2">Submit</button>
+      </div>
+      <div className="waiting-list_md p-3">
+        <label htmlFor="" className="pb-2 px-1 text-white">NAME</label>
+        <input
+                type="text"
+                id="name"
+                placeholder=" WRITE YOUR FULL NAME"
+                className="px-1 rounded-2"
+              />
+              <label htmlFor="" className="pb-2 px-1 text-white">EMAIL</label>
+              <input
+                type="email"
+                id="email"
+                placeholder=" WRITE YOUR EMAIL ID"
+                className="px-1 rounded-2"
+              />
+              <label htmlFor="" className="pb-2 px-1 text-white">PHONE NUMBER</label>
+              <input
+                type="tel"
+                id="number"
+                placeholder=" WRITE YOUR PHONE NUMBER"
+                className="px-1 rounded-2"
+              />
+              <label htmlFor="" className="pb-2 px-1 text-white">CITY</label>
+              <input type="text" id="city" placeholder=" WRITE YOUR CITY" className="px-1 rounded-2 " />
+
+              <button class="btn btn-danger rounded-1 px-5 py-2 ms-5">Submit</button>
+
       </div>
       <hr />
     </div>

@@ -7,7 +7,7 @@ body{
 /* FOOTER*/
 
 .footer{
-  height: 150px;
+  height: 450px;
   width: 90vw;
   margin: auto;
   font-family: sans-serif;
@@ -88,6 +88,9 @@ body{
   word-spacing: 5px;
   font-weight: 600;
 }
+.waiting-list_md{
+  display: none;
+}
 
 .form-title{
   color: white;
@@ -127,6 +130,10 @@ input{
   padding: 10px 25px;
 }
 
+.form-button :hover{
+  cursor: pointer;
+}
+
 hr{
   margin-top: 40px;
 }
@@ -157,29 +164,8 @@ hr{
 }
 
 .hamburger .ham{
-  height: 40px;
-  width: 40px;
-  background-color: white;
-  margin-right: 20px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.ham1, .ham3 {
-  height: 2px;
-  width: 20px;
-  background-color: black;
-  
-}
-
-.ham2 {
-  height: 2px;
-  width: 15px;
-  background-color: black;
-  margin-left: 3px;
+  height: 25px;
+  width: 25px;
 }
 
 .main{
@@ -244,4 +230,60 @@ p button{
   color: white;
   border: none;
   padding: 10px 15px;
+}
+
+p button:hover{
+  cursor: pointer;
+}
+/*----------------------------------------------------------------------*/
+
+@media only screen and (max-width:768px) {
+  .top-page{
+    margin-bottom:80px ;
+  }
+  .top-page .navbar{
+    padding: 10px;
+  }
+  .img-logo img{
+    margin: 0;
+  }
+  .upper ul, .lower ul{
+    flex-direction: column;
+    align-items: start;
+    padding: 0;
+  }
+  .upper ul li a, .lower ul li a{
+    display: inline-block;
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+  .form-title{
+    font-size: 25px;
+  }
+  .waiting-list{
+    display: none;
+  }
+  .waiting-list_md{
+    display: block;
+    height: 520px;
+    width: 80vw;
+    background-color: rgb(104, 17, 17);
+    background-image: linear-gradient(180deg, rgb(67, 9, 9), rgb(14, 3, 3));
+    margin-bottom: 80px;
+    border-radius: 20px;
+    flex-direction: column;
+    border: 2px solid;
+    word-spacing: 5px;
+    font-weight: 600;
+  }
+  .waiting-list_md input{
+    width: 230px;
+    padding: 10px 15px;
+  }
+  .form-div{
+    margin-bottom: 130px;
+  }
+  .footer{
+    padding: 40px 10px;
+  }
 }
